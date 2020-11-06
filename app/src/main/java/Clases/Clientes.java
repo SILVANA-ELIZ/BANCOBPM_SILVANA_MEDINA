@@ -1,14 +1,18 @@
 package Clases;
 
-public class Clientes {
+public class Clientes{
 
         private int Axel;
         private int Roxana;
+        private int Betzabe;
+        private int Matias;
 
 
         public Clientes(){
             Axel = 750000;
             Roxana = 900000;
+            Betzabe = 750000;
+            Matias = 900000;
 
         }
 
@@ -22,6 +26,14 @@ public class Clientes {
             return Roxana;
         }
 
+        public int getBetzabe() {
+        return Betzabe;
+        }
+
+
+        public int getMatias() {
+        return Matias;
+        }
 
 
     }
