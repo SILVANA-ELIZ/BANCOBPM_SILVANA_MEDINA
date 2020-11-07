@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
 
+import java.util.ArrayList;
+
 public class Home_act extends AppCompatActivity {
 
     private ViewFlipper vf;
@@ -50,7 +52,7 @@ public class Home_act extends AppCompatActivity {
     }
 
 
-    public void Info(View v)
+    public void Informacion(View v)
     {
         Intent i = new Intent(this, Info_Act.class);
         startActivity(i);
@@ -63,10 +65,37 @@ public class Home_act extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void Prestamo (View v)
+    {
+
+            ArrayList<String> listaClientes = new ArrayList<String>();
+            ArrayList<String> listaCreditos = new ArrayList<String>();
+
+
+            listaClientes.add("Axel");
+            listaClientes.add("Roxana");
+
+
+            listaClientes.add("Betzabe");
+            listaClientes.add("Matias");
+
+
+            listaCreditos.add("Credito Hipotecario");
+            listaCreditos.add("Credito Automotriz");
+
+
+            Intent i = new Intent(this, Prestamo_Act.class);
+            i.putExtra("listaClientes", listaClientes);
+            i.putExtra("listaCreditos", listaCreditos);
+            startActivity(i);
+        }
+
+    }
 
 
 
-}
+
+
 
 
 

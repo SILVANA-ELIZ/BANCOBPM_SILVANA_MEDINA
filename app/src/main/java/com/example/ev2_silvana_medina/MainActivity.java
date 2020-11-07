@@ -7,12 +7,15 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 
 public class MainActivity extends AppCompatActivity {
 
     private ProgressBar pb;
     private Button btn;
+    private EditText edit, edit2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,10 +88,18 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+    }
 
-
-
-
+    public void Iniciar(View v)
+    {
+        if ((edit.getText().toString().equals("android")) || (edit.getText().toString().equals("android")))
+        {
+            if (edit2.getText().toString().equals("123"))
+            {
+                Intent i = new Intent(this,Home_act.class);
+                startActivity(i);
+            }
+        }
     }
 }
 
