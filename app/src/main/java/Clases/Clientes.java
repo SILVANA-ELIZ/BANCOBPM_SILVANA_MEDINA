@@ -15,6 +15,7 @@ public class Clientes{
             Matias = 900000;
 
 
+
         }
 
 
@@ -32,9 +33,11 @@ public class Clientes{
     }
 
 
-       public  int getMatias() {
+        public int getMatias() {
         return Matias;
     }
+
+
 
 
 
