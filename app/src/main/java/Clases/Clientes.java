@@ -8,11 +8,13 @@ public class Clientes{
         private int Matias;
 
 
+
         public Clientes(){
             Axel = 750000;
             Roxana = 900000;
             Betzabe = 750000;
             Matias = 900000;
+
 
 
 
@@ -28,14 +30,11 @@ public class Clientes{
             return Roxana;
         }
 
-        public int getBetzabe() {
-        return Betzabe;
-    }
+        public int getBetzabe(){return Betzabe;}
+
+        public int getMatias(){return Matias;}
 
 
-        public int getMatias() {
-        return Matias;
-    }
 
 
 
