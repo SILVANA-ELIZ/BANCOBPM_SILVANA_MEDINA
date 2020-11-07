@@ -27,7 +27,7 @@ public class Clientes{
             return Roxana;
         }
 
-        public int getBetzabexel() {
+        public int getBetzabe() {
         return Betzabe;
     }
 
