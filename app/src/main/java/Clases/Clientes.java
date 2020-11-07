@@ -14,6 +14,7 @@ public class Clientes{
             Betzabe = 750000;
             Matias = 900000;
 
+
         }
 
 
@@ -26,17 +27,19 @@ public class Clientes{
             return Roxana;
         }
 
-        public int getBetzabe() {
+        public int getBetzabexel() {
         return Betzabe;
-        }
-
-
-        public int getMatias() {
-        return Matias;
-        }
-
-
     }
+
+
+       public  int getMatias() {
+        return Matias;
+    }
+
+
+
+
+}
 
 
 
